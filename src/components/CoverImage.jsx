@@ -1,5 +1,10 @@
-export const CoverImage = () => {
-  return (
-    <div>CoverImage</div>
-  )
+export const CoverImage = ({images}) => {
+  return images.map(item => {
+   
+      return (
+          <div >
+              <img src={ item.url } />
+          </div>
+      );
+ })
 }
