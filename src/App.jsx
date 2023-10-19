@@ -16,6 +16,8 @@ export const App = () => {
   const renderContent = renderAlbums()
   return <div>
     <Header/>
-    <section>{renderContent}</section>
+    <div className="content">
+    {renderContent}
+  </div>;
   </div>;
 };

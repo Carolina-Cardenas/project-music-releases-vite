@@ -1,6 +1,6 @@
 export const AlbumName = ({name}) => {
   return (
-    <div>AlbumName : {name}</div>
+    <div><p> {name}</p></div>
   )
 }
 

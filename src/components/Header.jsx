@@ -1,5 +1,5 @@
 export const Header = () => {
   return (
-    <div>Header</div>
+    <div><h1>New albums and Singles</h1></div>
   )
 }

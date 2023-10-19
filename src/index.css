@@ -14,3 +14,75 @@ code {
 .responsiveImage{
   width:100%
 }
+
+.content{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+body{
+  background-color: black;
+}
+h1,p {
+  color: hsl(312, 63%, 56%);
+}
+.album {
+  position: relative;
+  display: inline-block;
+  margin: 10px;
+  transition: filter 0.3s;
+}
+.album-cover {
+  width: 200px;
+  height: 200px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+
+.album:hover .overlay {
+  display: flex;
+}
+
+.play-button,
+.favorite-button,
+.ellipsis-button {
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 24px;
+  margin: 10px;
+  cursor: pointer;
+  align-items: center;
+}
+
+.play-button:hover,
+.favorite-button:hover,
+.ellipsis-button:hover {
+  color: #ff7f00; /* Cambia el color al pasar el mouse por encima */
+}
+
+.containerArtists {
+  display: flex; /* Para que los elementos hijos se alineen horizontalmente */
+  justify-content:baseline; /* Distribuye el espacio disponible entre los elementos */
+  align-items: center; /* Centra verticalmente los elementos */
+  
+}
+.item {
+  margin: 5px; /* Agrega margen entre elementos */
+}
+
+
+
