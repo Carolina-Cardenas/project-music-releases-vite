@@ -5,13 +5,14 @@ console.log(selectedImage)
  return ( 
     <div className="album">
         <img src={selectedImage.url} alt="Medium Image" className="album-cover" />
-        <div className="overlay">
-        <button className="favorite-button">	&#9825;</button>
-        <div className="play-button-container">
-            <button className="play-button">&#9654;</button>
-          </div>
-        <button className="ellipsis-button">&#8230;</button>
-  </div>
+
+        <div className="container-buttons">
+            <button className="favorite-button">	&#9825;</button>
+            <div className="play-button-container">
+                <button className="play-button">&#9654;</button>
+            </div>
+            <button className="ellipsis-button">&#8230;</button>
+        </div>
     </div>
   )
 }

@@ -1,6 +1,7 @@
-export const AlbumName = ({name}) => {
+export const AlbumName = ({name, external_urls}) => {
   return (
-    <div><p> {name}</p></div>
+    <div className="album-title">
+      <a href={external_urls.spotify}>{name}</a>
+    </div>
   )
 }
-
