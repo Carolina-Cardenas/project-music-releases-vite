@@ -5,9 +5,8 @@ import  '../css/album.css';
 export const Album = ({  artists, name, images,external_urls }) => {
   return (
     <div className="box" >
-       
       <CoverImage images={images} /> 
-      <div className="text">
+      <div >
         <AlbumName name={name} external_urls={external_urls} />
         <ArtistName artists={artists} />
       </div>

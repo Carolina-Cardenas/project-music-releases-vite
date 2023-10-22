@@ -1,7 +1,6 @@
 import data from "./data.json";
 import { Header } from "./components/Header"
 import { Album } from "./components/Album";
-
 export const App = () => {
   const albums = data.albums.items
   const renderAlbums = () => {
