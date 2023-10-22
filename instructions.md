@@ -63,22 +63,22 @@ This is just a suggestion - how you decide to structure your components is compl
    <img src="https://github.com/Technigo/project-music-releases-vite/blob/main/src/design/hover-styles.png" alt="Project Banner Image">
 
 ## Requirements
-- Your app should have components
+- Your app should have components L
 - Your page should look as close as possible to the design provided.
 - You should display the following for each album:
-  -   album cover image
-  -   album name
-  -   the name of each artist involved with a comma between
+  -   album cover image L
+  -   album name L
+  -   the name of each artist involved with a comma between L
 - Hover effects:
   - When you hover over an album, it should go darker, and you should show a play button, a favourite button, and the ellipsis (see the design sketch)
   - When you hover over the play button, it should grow (see the design sketch)
-  - Hovering an artist name or an album name should match the design sketch
-- When you click on the album, it should link to the album's external url in the data
-- When you click on an artist, it should link to the artist's external url in the data
-- Your page should be responsive:
-  - showing 4 albums per row on desktop
-  - 2 per row on tablet
-  - 1 per row on mobile.
+  - Hovering an artist name or an album name should match the design sketch L
+- When you click on the album, it should link to the album's external url in the data L
+- When you click on an artist, it should link to the artist's external url in the data L
+- Your page should be responsive:L
+  - showing 4 albums per row on desktop L
+  - 2 per row on tabletL
+  - 1 per row on mobile.L
 
 ## Stretch goals
 So you’ve completed the requirements? Great job! Make sure you've committed and pushed a version of your project before starting on the stretch goals. Remember that the stretch goals are optional.
@@ -86,7 +86,7 @@ So you’ve completed the requirements? Great job! Make sure you've committed an
 ### Intermediate stretch goals
 - Create CSS rules or Javascript logic so that if there are only two artists you show a "&" between them, and if there are more than two artists, you show "," between all artists except the last two which should have "&":
   - *Teyana Taylor & Kehlani*
-  - *Y2K, bbno$ & Enrique Iglesias*
+  - *Y2K , bbno$ & Enrique Iglesias*
 - Lower the opacity of the play button icons and then when you hover over the play button, it should have full opacity
 
 ### Advanced stretch goals
