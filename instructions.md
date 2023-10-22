@@ -86,7 +86,7 @@ So you’ve completed the requirements? Great job! Make sure you've committed an
 ### Intermediate stretch goals
 - Create CSS rules or Javascript logic so that if there are only two artists you show a "&" between them, and if there are more than two artists, you show "," between all artists except the last two which should have "&":
   - *Teyana Taylor & Kehlani*
-  - *Y2K & bbno$ & Enrique Iglesias*
+  - *Y2K , bbno$ & Enrique Iglesias*
 - Lower the opacity of the play button icons and then when you hover over the play button, it should have full opacity
 
 ### Advanced stretch goals

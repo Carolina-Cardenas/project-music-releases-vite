@@ -23,7 +23,8 @@ body {
 }
 h1 {
   color:#ffffff;
-  margin-top: 50px;  
+  margin-top: 50px;
+  font-family: Helvetica;
 }
 .album {
   position: relative;
@@ -65,7 +66,7 @@ h1 {
   transition: transform 0.3s; 
 }
 .play-button:hover{
-  transform: scale(1.6);  
+  transform: scale(1.6); 
 }
 .favorite-button,
 .ellipsis-button {

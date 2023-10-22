@@ -11,5 +11,5 @@ export const Album = ({  artists, name, images,external_urls }) => {
         <ArtistName artists={artists} />
       </div>
     </div>
-  )
-}
+  );
+};

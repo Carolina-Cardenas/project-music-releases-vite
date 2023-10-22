@@ -1,6 +1,5 @@
 export const ArtistName = ({artists}) => {
 
-
   return (
     <div className="containerArtists">
       {
@@ -15,19 +14,4 @@ export const ArtistName = ({artists}) => {
       ))}      
     </div>
   );
-}
-
-
-
-
-
-
-  //   return artists.map(item => {
-   
-//  return (
-//         <div key={item.id} >
-//            <p>{ item.name }</p> 
-//             </div>
-// )
-// })
-
+};
