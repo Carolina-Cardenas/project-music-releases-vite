@@ -33,10 +33,10 @@ code {
 
 @media (max-width: 480px) {
   h1.responsive-header {
-      font-size:cal(1em+1vw);
-      margin-left: 2.4em;
+      /* font-size:cal(1em+1vw); */
+      /* margin-left: 2.4em;
       padding:1em;
-      line-height:0.5vw;
+      line-height:0.5vw; */
 
   }
 }
