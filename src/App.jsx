@@ -13,7 +13,7 @@ export const App = () => {
     );
   }
   const renderContent = renderAlbums()
-  return <div>
+  return <div  >
     <Header/>
     <div className="content">
     {renderContent}
