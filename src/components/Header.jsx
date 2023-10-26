@@ -1,6 +1,6 @@
 export const Header = () => {
   return (
-    <div>
+    <div >
       <h1  className="responsive-header">New albums and Singles</h1>
     </div>
   );

@@ -12,26 +12,32 @@ code {
 }
 @media screen and(max-width:768px) {
   .box {
-    flex-basis: calc(30% - 20px);
+    flex-basis: calc(50% - 20px);
   }
 }
 @media screen and(max-width:480px) {
   .box {
     flex-basis: calc(100%-20px);
   }
+  .h1box {
+    flex-basis: calc(100%-20px);
+  }
 }
 @media (max-width: 768px) {
   h1.responsive-header {
       font-size: 24px;
+      margin-left:5%;
   }
 }
 
 
 @media (max-width: 480px) {
   h1.responsive-header {
-      font-size: 18px;
-      text-align: center;
-      flex-basis: calc(100%-20px);
+      font-size:cal(1em+1vw);
+      margin-left: 2.4em;
+      padding:1em;
+      line-height:0.5vw;
+
   }
 }
 .responsiveImage {
@@ -49,7 +55,7 @@ h1 {
   color:#ffffff;
   margin-top: 50px;  
   font-family: Helvetica;
-  margin-left:10px;
+  margin-left:20px;
 }
 .album {
   position: relative;
@@ -158,4 +164,9 @@ a {
 }
 a:hover {
   text-decoration: underline; 
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
