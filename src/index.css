@@ -10,6 +10,30 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
      monospace;
 }
+@media screen and(max-width:768px) {
+  .box {
+    flex-basis: calc(30% - 20px);
+  }
+}
+@media screen and(max-width:480px) {
+  .box {
+    flex-basis: calc(100%-20px);
+  }
+}
+@media (max-width: 768px) {
+  h1.responsive-header {
+      font-size: 24px;
+  }
+}
+
+
+@media (max-width: 480px) {
+  h1.responsive-header {
+      font-size: 18px;
+      text-align: center;
+      flex-basis: calc(100%-20px);
+  }
+}
 .responsiveImage {
   width:100%
 }
@@ -25,6 +49,7 @@ h1 {
   color:#ffffff;
   margin-top: 50px;  
   font-family: Helvetica;
+  margin-left:10px;
 }
 .album {
   position: relative;
@@ -96,14 +121,16 @@ h1 {
   transition: background-color 0.3s;
 }
 .text {
-  margin: 0 auto;
+  margin: auto;
   text-align: center;
   width:100%; 
+  margin-left: 10px;
 }
 .album-title { 
   font-size:14px ;  
   font-family: Helvetica;
   color:#ffffff;
+  margin-left: 10px;
 }
 .artist-name { 
   font-size:14px ;  
@@ -113,7 +140,8 @@ h1 {
 .containerArtists {
   display: flex;
   flex-wrap: wrap; 
-  justify-content:baseline;  
+  justify-content:baseline;
+  margin-left:10px;  
  }
 .artist-image {
   width: 100%;
