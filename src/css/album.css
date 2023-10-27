@@ -1,6 +1,7 @@
 .box {
-  flex-basis: calc(25% - 20px);
+  flex-basis: calc(25% - 70px);
   margin: auto;
+  margin-bottom: 30px;
   background-color: black;
 }
 
@@ -10,7 +11,7 @@
   grid-gap: 10px;
 }
 .image {
-  width: 100%;
+  width: 50%;
   height: auto;
 }
 .image img {
