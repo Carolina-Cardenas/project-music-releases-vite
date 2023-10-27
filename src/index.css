@@ -26,17 +26,19 @@ code {
 @media (max-width: 768px) {
   h1.responsive-header {
       font-size: 24px;
-      margin-left:5%;
+      
   }
 }
 
 
 @media (max-width: 480px) {
   h1.responsive-header {
-      /* font-size:cal(1em+1vw); */
-      /* margin-left: 2.4em;
+    font-size: 18px;
+    margin-left: 80px;
+      /* font-size:cal(1em+1vw); 
+       margin-left: 2.4em;
       padding:1em;
-      line-height:0.5vw; */
+      line-height:0.5vw;  */
 
   }
 }
